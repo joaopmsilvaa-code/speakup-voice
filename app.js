@@ -12,6 +12,11 @@
       url: 'https://general-runtime.voiceflow.com',
       versionID: VOICEFLOW_VERSION,
       voice: { url: 'https://runtime-api.voiceflow.com' },
+      assistant: {
+        title: 'Alex',
+        description: 'Tutor virtual · Restaurante em Nova York',
+        color: '#5B6CFF'
+      },
       render: {
         mode: 'embedded',
         target: d.getElementById('voiceflow-chat-frame')
